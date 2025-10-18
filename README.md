@@ -67,3 +67,8 @@ Details/Error: User validation failed
 
 This email was sent automatically by n8n.
 
+![Workflow Editor](Screenshot%20(67).png)
+![Sheet Log](Screenshot%20(68).png)
+![Email Notification](Screenshot%20(69).png)
+
+
