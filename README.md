@@ -46,3 +46,24 @@ Set expected value (e.g., login == octocat) in IF node
 Run the Workflow:
 
 Click Execute — verify logs in Google Sheets, receive mail on pass/fail
+
+Timestamp         |  API_URL                               |  Username  |  TestResult  |  Details/Error         
+------------------+----------------------------------------+------------+--------------+------------------------
+2025-10-18 14:30  |  https://api.github.com/users/octocat  |  octocat   |  Pass        |                        
+2025-10-18 14:32  |  https://api.github.com/users/octocat  |  abc       |  Fail        |  User validation failed
+
+
+Email Alert Example:
+
+Subject: API Test Alert - Pass/Fail
+
+API Test Alert!
+
+Timestamp: 2025-10-18T14:32:00Z
+Username: octocat
+Test Result: Pass/Fail
+API: https://api.github.com/users/octocat
+Details/Error: User validation failed
+
+This email was sent automatically by n8n.
+
